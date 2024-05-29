@@ -79,7 +79,7 @@ const stkPush = async (req, res) => {
       "STK Push Error:",
       error.response ? error.response.data : error.message
     );
-    res.status(400).json({ message: "STK Push Error", error: error.message });
+    res.status(400).json({ message: "STK Push Errorr", error: error.message });
   }
 };
 
